@@ -1,0 +1,85 @@
+
+body{
+    background-image: url(foto-de-grande-angular-de-uma-unica-arvore-crescendo-sob-um-ceu-nublado-durante-um-por-do-sol-cercado-por-grama.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.form-box {
+    margin-top: 2%;
+    margin-left: 38%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background-color: transparent;
+    max-width: 400px;
+    padding: 20px;
+  }
+  .conteúdo{
+    margin: 25px;
+  }
+  .conteúdo h1 {
+    color: rgb(235, 221, 146);
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .conteúdo h4 {
+    color: rgb(235, 221, 146);
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-top: 10px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input [type=text], textarea {
+    padding: 10px;
+    width: 500;
+    font-size: 15;
+    border: 1ps solid #ccc;
+    outline:0;
+    margin-top:5px;
+  }
+
+  textarea{
+    height: 200px;
+    resize: none;
+  }
+  .termoslink:hover{
+    color:black;
+  }
+  a{
+    text-decoration: none;
+    color:black;
+  }

@@ -1,0 +1,27 @@
+body{
+    background-image: url(fundo.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.form1{
+    background-color: rgba(155, 153, 149, 0.199);
+    color:rgb(255, 255, 255);
+    margin-top: 2%;
+    margin-left: 38%;
+    border: 2px solid rgb(107, 53, 2);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    max-width: 400px;
+    padding: 20px;
+    box-shadow:13px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+a{
+    color: white;
+    text-decoration: none;
+}
+

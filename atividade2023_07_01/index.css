@@ -1,0 +1,25 @@
+@keyframes exemplo {
+    0% { background-color: rgb(255, 0, 0); } /* Vermelho */
+    14% { background-color: rgb(255, 255, 0);transform: translateX(100px);  } /* Amarelo */
+    28% { background-color: rgb(0, 255, 0);transform:translateY(200px); transform: translateX(200px, 4rem);} /* Verde */
+    42% { background-color: rgb(0, 255, 255);transform: translateX(200px);} /* Ciano */
+    57% { background-color: rgb(0, 0, 255); } /* Azul */
+    71% { background-color: rgb(255, 0, 255); } /* Magenta */
+    85% { background-color: rgb(255, 0, 0); } /* Vermelho */
+    100% { background-color: rgb(255, 0, 0);} /* Vermelho (repete para garantir a transição suave) */
+  }
+
+  body{
+    margin:0;
+
+  }
+
+  .exemplo{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    animation-name: exemplo;
+    animation-duration: 10s ;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+  } 

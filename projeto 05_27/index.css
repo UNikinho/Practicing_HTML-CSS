@@ -1,0 +1,91 @@
+body {
+   
+    text-align: left;
+    background-color: aqua;
+}
+
+h1 {
+
+    border: 5px dashed;
+    font-family: monospace;
+    margin-left: 20%;
+    background-color: rgb(211, 192, 20);
+    color: blue
+}
+
+h2 {
+    border: 5px solid ;
+    justify-content: center;
+    font-family: monospace;
+    margin-left: 20%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+h4 {
+    
+    font-family: monospace;
+    margin-left: 20%;
+}
+
+p {
+    font-family: monospace;
+    margin-left: 20%;
+}
+
+strong {
+    border: 5px dotted;
+    margin-left: 20%;
+    font-size: 70px;
+    text-decoration: double;
+}
+
+h3 {
+    font-size: 42px;
+    margin-left: 20%;
+    border: 5px double grey;
+}
+
+img {
+    margin-left: 10%;
+    width: 150px;
+    border: 10px groove rgb(255, 255, 255);
+    /* Estilo, largura e cor da borda */
+    padding: 10px;
+    /* Espaçamento interno para que a borda fique visível */
+    width: 200px;
+
+}
+
+p {
+  border: 5px ;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+video {
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 20%;
+
+}
+
+li {
+
+    margin-left: 20%;
+}
+
+h4 {
+    color: aquamarine;
+}
+
+h3 {
+    color: rgb(45, 98, 100);
+}
+div{
+
+height: 100px;
+width: 100px;
+border-radius: 500%;
+
+}
